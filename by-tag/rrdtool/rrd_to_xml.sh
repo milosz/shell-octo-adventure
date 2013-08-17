@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/rrd_to_xml.sh
+../../scripts/rrd_to_xml.sh

@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/ftp_uplad.sh
+../../scripts/ftp_uplad.sh

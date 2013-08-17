@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/convert_mbox_to_maildir.sh
+../../scripts/convert_mbox_to_maildir.sh

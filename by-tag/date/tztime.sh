@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/tztime.sh
+../../scripts/tztime.sh

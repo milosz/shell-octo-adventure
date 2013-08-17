@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/meet_hosts.sh
+../../scripts/meet_hosts.sh

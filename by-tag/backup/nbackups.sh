@@ -1,1 +1,1 @@
-/home/milosz/projects/shell-octo-adventure/scripts/nbackups.sh
+../../scripts/nbackups.sh
