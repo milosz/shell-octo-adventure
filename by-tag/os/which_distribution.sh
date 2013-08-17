@@ -1,0 +1,1 @@
+../../scripts/which_distribution.sh
