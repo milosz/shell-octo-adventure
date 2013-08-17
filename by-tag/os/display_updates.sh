@@ -1,0 +1,1 @@
+../../scripts/display_updates.sh
