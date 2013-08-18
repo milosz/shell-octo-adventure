@@ -1,0 +1,1 @@
+../../scripts/freebsd_neo.sh
