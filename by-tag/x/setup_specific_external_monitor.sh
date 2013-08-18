@@ -1,0 +1,1 @@
+../../scripts/setup_specific_external_monitor.sh

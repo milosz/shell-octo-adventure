@@ -1,0 +1,1 @@
+../../scripts/dbus_simulate_user_activity.sh

@@ -1,0 +1,1 @@
+../../scripts/update_rrd_batt_charge.sh

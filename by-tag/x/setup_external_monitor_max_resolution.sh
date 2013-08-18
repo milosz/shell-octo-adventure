@@ -1,0 +1,1 @@
+../../scripts/setup_external_monitor_max_resolution.sh
