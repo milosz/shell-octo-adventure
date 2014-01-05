@@ -1,0 +1,1 @@
+../../scripts/set_git_username.sh

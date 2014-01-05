@@ -1,0 +1,1 @@
+../../scripts/bookmark_folders.sh

@@ -1,0 +1,1 @@
+../../scripts/dmesg_timestamps.sh

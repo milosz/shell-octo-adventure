@@ -1,0 +1,1 @@
+../../scripts/jekyll_gandi_upload.sh

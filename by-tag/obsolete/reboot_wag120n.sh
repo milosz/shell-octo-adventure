@@ -1,0 +1,1 @@
+../../scripts/reboot_wag120n.sh
