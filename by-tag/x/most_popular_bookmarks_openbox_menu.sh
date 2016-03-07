@@ -1,1 +1,0 @@
-../../scripts/most_popular_bookmarks_openbox_menu.sh

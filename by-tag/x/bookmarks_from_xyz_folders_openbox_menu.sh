@@ -1,1 +1,0 @@
-../../scripts/bookmarks_from_xyz_folders_openbox_menu.sh
