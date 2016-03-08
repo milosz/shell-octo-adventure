@@ -1,0 +1,1 @@
+../../scripts/backup_every_non_hidden_directory.sh

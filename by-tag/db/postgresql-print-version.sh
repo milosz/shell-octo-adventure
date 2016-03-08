@@ -1,0 +1,1 @@
+../../scripts/postgresql-print-version.sh

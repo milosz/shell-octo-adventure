@@ -1,0 +1,1 @@
+../../scripts/highlight-text.sh

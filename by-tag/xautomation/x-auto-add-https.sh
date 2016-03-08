@@ -1,0 +1,1 @@
+../../scripts/x-auto-add-https.sh

@@ -1,0 +1,1 @@
+../../scripts/check-pid-file-process.sh

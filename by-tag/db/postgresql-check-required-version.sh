@@ -1,0 +1,1 @@
+../../scripts/postgresql-check-required-version.sh

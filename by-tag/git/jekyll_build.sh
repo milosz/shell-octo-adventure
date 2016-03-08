@@ -1,0 +1,1 @@
+../../scripts/jekyll_build.sh

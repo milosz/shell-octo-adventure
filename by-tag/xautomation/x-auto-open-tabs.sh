@@ -1,0 +1,1 @@
+../../scripts/x-auto-open-tabs.sh

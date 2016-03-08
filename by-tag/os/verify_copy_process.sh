@@ -1,0 +1,1 @@
+../../scripts/verify_copy_process.sh

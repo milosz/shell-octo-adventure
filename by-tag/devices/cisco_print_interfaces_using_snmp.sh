@@ -1,0 +1,1 @@
+../../scripts/cisco_print_interfaces_using_snmp.sh

@@ -1,0 +1,1 @@
+../../scripts/colorize-text.sh
