@@ -1,0 +1,1 @@
+../../scripts/man2dokuwiki.sh
