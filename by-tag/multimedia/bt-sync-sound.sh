@@ -1,0 +1,1 @@
+../../scripts/bt-sync-sound.sh
