@@ -1,0 +1,1 @@
+../../scripts/man_search.sh
