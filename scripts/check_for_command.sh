@@ -1,5 +1,5 @@
 #!/bin/sh
-# Source: https://blog.sleeplessbeastie.eu/2016/06/23/how-to-check-for-package-inside-shell-script/
+# Source: https://blog.sleeplessbeastie.eu/2016/06/26/how-to-check-for-command-inside-shell-script/
 
 # check for specific command
 # Return values:
