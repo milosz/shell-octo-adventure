@@ -27,10 +27,6 @@
 # example:
 # gtojdn 15 5 2013
 #
-# notes:
-# algorithm is simplified 
-# as it will return 2456428 instead of 2456427.5
-#
 gtojdn() {
   if [ $2 -le 2 ]; then
     y=$(($3 - 1))
@@ -45,7 +41,7 @@ gtojdn() {
   x=$(echo "($x + 365.25 * ($y + 4716))/1" | bc) 
   x=$(echo "($x + 30.6001 * ($m + 1))/1" | bc)
   
-  echo $(echo "($x + $d - 1524.5 + 0.5)/1" | bc) # added 0.5                                                  
+  echo $(echo "($x + $d - 1524.5)" | bc)
 }
 
 
@@ -60,12 +56,10 @@ gtojdn() {
 #
 # notes:
 # algorithm is simplified
-# as you need to use 2456428 as a parameter 
-# instead of 2456427.5
+# loses accuracy for years less than in 1582
 #
 jdntog() {
-  z=$(echo "($1)/1" | bc) # /1 to get integer
-                          # original algorithm:  z=$(echo "$1+0.5" | bc)
+  z=$(echo "($1+0.5)" | bc)
   w=$(echo "(($z - 1867216.25)/36524.25)/1" | bc)
   x=$(echo "$w / 4" | bc)
   a=$(echo "$z + 1 + $w - $x" | bc)
@@ -75,8 +69,8 @@ jdntog() {
   e=$(echo "(($b - $d) / 30.6001)/1" | bc)
   f=$(echo "(30.6001 * $e)/1" | bc)
 
-  md=$(echo "$b - $d - $f" | bc)
-  if [ $e -le 12 ]; then
+  md=$(echo "($b - $d - $f)/1" | bc)
+  if [ $e -le 13 ]; then
     m=$(echo "$e - 1" | bc)
   else
     m=$(echo "$e - 13" | bc)
@@ -89,6 +83,9 @@ jdntog() {
   fi
  
   echo "$md/$m/$y"
+  if [ "$y" -lt 1582 ]; then
+    echo "not accurate as year < 1582"
+  fi
 }
 
 
