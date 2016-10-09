@@ -1,9 +1,9 @@
 #!/bin/sh
-# perform
+# perform different actions depending on package status
 
 # required package version
 required_package="apache2-utils"
-required_version="12.4.10-10+deb8u7"
+required_version="2.4.10-10+deb8u7"
 
 # local package version
 local_version=$(/usr/bin/dpkg-query -W -f="\${Version}\n" $required_package 2>/dev/null)
