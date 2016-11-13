@@ -17,6 +17,13 @@ case $local_version in
      echo "Package \"$required_package\" is installed, version constraint is met (\"$required_version\")"
      ;;
   *)
-     echo "Package \"$required_package\" is installed, version constraint is not met (\"$local_version\" != \"$required_version\")"
+     most_recent_version=$(printf "${required_version}\n${local_version}\n" | sort -h | tail -1)
+     if [ "$local_version" == "$most_recent_version" ]; then
+         echo "Package \"$required_package\" is installed, version constraint is met (\"$local_version\" is newer than \"$required_version\")"
+         exit 0
+     else
+         echo "Package \"$required_package\" is installed, version constraint is not met (\"$local_version\" is older than \"$required_version\")"
+         exit 1
+     fi
      ;;
 esac
