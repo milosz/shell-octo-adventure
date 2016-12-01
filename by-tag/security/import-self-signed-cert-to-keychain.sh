@@ -1,0 +1,1 @@
+../../scripts/import-self-signed-cert-to-keychain.sh
